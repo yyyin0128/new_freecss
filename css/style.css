@@ -637,3 +637,14 @@ input.form-control::placeholder {
 .copyright a {
     color: #040404;
 }
+
+/* Set the color of links */
+a {
+    color: #007bff; /* Set the link color */
+    text-decoration: none; /* Remove the default underline */
+}
+
+a:hover, a:focus {
+    color: #0056b3; /* Set the color when hovering or focusing on the link */
+    text-decoration: underline; /* Show underline when hovering or focusing */
+}
